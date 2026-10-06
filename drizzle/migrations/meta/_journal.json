@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791269275570,
+      "tag": "0000_create_leads_and_reviews",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791270323738,
+      "tag": "0001_create_client_feedback",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791270557325,
+      "tag": "0002_admin_dashboard",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791272286976,
+      "tag": "0003_lead_form_fields",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791272905667,
+      "tag": "0004_feedback_project_name",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791273521255,
+      "tag": "0005_restrict_has_role",
+      "breakpoints": true
+    }
+  ]
+}

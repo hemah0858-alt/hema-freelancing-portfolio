@@ -1,0 +1,2 @@
+ALTER TABLE public.client_feedback ADD COLUMN IF NOT EXISTS project_name text;
+ALTER TABLE public.client_feedback ADD CONSTRAINT client_feedback_project_name_len CHECK (project_name IS NULL OR char_length(project_name) <= 120) NOT VALID;

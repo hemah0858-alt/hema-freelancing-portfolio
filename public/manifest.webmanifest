@@ -1,0 +1,10 @@
+{
+  "name": "First Step Future",
+  "short_name": "First Step",
+  "description": "Professional, affordable website development for growing businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#0d847a",
+  "icons": [{ "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" }]
+}
