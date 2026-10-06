@@ -9,11 +9,8 @@ import {
   type ErrorComponentProps,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
-
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
 import { SiteShell } from "../components/site-shell";
-
 function NotFoundComponent() {
   if (typeof document !== "undefined") document.title = "Page not found — First Step Future";
   return (
